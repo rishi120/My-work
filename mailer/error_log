@@ -1,0 +1,52 @@
+[30-Nov-2015 13:10:11 Asia/Calcutta] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/dbconnection/dbOpenCon.php on line 10
+[30-Nov-2015 13:13:24 Asia/Calcutta] PHP Warning:  include(excel_reader.php): failed to open stream: No such file or directory in /home2/total758/public_html/tjs/mymailserver/mymailserver/read_mail_excel.php on line 2
+[30-Nov-2015 13:13:24 Asia/Calcutta] PHP Warning:  include(excel_reader.php): failed to open stream: No such file or directory in /home2/total758/public_html/tjs/mymailserver/mymailserver/read_mail_excel.php on line 2
+[30-Nov-2015 13:13:24 Asia/Calcutta] PHP Warning:  include(): Failed opening 'excel_reader.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/total758/public_html/tjs/mymailserver/mymailserver/read_mail_excel.php on line 2
+[30-Nov-2015 13:13:24 Asia/Calcutta] PHP Fatal error:  Class 'PhpExcelReader' not found in /home2/total758/public_html/tjs/mymailserver/mymailserver/read_mail_excel.php on line 6
+[30-Nov-2015 13:19:24 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 22
+[30-Nov-2015 14:10:47 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 22
+[30-Nov-2015 14:14:30 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 23
+[30-Nov-2015 14:23:16 Asia/Calcutta] PHP Warning:  Creating default object from empty value in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 24
+[30-Nov-2015 14:23:16 Asia/Calcutta] PHP Fatal error:  Call to undefined method stdClass::setFrom() in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 31
+[30-Nov-2015 14:27:48 Asia/Calcutta] PHP Warning:  Creating default object from empty value in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 24
+[30-Nov-2015 14:27:48 Asia/Calcutta] PHP Fatal error:  Call to undefined method stdClass::setFrom() in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 31
+[30-Nov-2015 14:30:32 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 22
+[30-Nov-2015 14:36:00 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 22
+[30-Nov-2015 14:37:58 Asia/Calcutta] PHP Fatal error:  Call to a member function isSMTP() on a non-object in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 22
+[30-Nov-2015 14:41:56 Asia/Calcutta] PHP Warning:  Creating default object from empty value in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 23
+[30-Nov-2015 14:41:56 Asia/Calcutta] PHP Fatal error:  Call to undefined method stdClass::setFrom() in /home2/total758/public_html/tjs/mymailserver/mymailserver/send_mail_form.php on line 29
+[01-Dec-2015 13:09:49 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '$mail' (T_VARIABLE) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 27
+[01-Dec-2015 14:46:51 Asia/Calcutta] PHP Warning:  mysql_connect(): Too many connections in /home2/total758/public_html/tjs/mymailserver/mymailserver/dbconnection/dbOpenCon.php on line 10
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:15 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:23 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:23 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:23 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:23 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:24 Asia/Calcutta] PHP Warning:  mysql_query(): Access denied for user 'santoshs'@'localhost' (using password: NO) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:51:24 Asia/Calcutta] PHP Warning:  mysql_query(): A link to the server could not be established in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 21
+[01-Dec-2015 15:55:34 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 35
+[01-Dec-2015 15:55:57 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 35
+[01-Dec-2015 15:58:38 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php:2) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 15:59:56 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '');' (T_ENCAPSED_AND_WHITESPACE) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:00:31 Asia/Calcutta] PHP Fatal error:  Call to undefined function redirect() in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:02:50 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php:2) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:05:59 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'multipart' (T_STRING) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 26
+[01-Dec-2015 16:06:49 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'multipart' (T_STRING) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 26
+[01-Dec-2015 16:09:54 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'upload' (T_STRING) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 26
+[01-Dec-2015 16:12:45 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php:2) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:13:46 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php:2) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:16:09 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php:2) in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 21
+[01-Dec-2015 16:16:17 Asia/Calcutta] PHP Fatal error:  Cannot re-assign auto-global variable _SESSION in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 27
+[01-Dec-2015 16:17:25 Asia/Calcutta] PHP Fatal error:  Cannot re-assign auto-global variable _SESSION in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 28
+[01-Dec-2015 16:29:22 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')' in /home2/total758/public_html/tjs/mymailserver/mymailserver/upload.php on line 7
+[01-Dec-2015 16:39:57 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '<' in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 31
+[01-Dec-2015 16:42:54 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 35
+[01-Dec-2015 16:43:32 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 35
+[01-Dec-2015 16:43:36 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 35
+[01-Dec-2015 16:43:39 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ';' in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 35
+[01-Dec-2015 16:54:00 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'a' (T_STRING) in /home2/total758/public_html/tjs/mymailserver/mymailserver/index.php on line 36
