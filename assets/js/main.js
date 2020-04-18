@@ -9,14 +9,14 @@ $(document).ready(function() {
     if (detectWindow > 767) {
         $('.tech').mouseover(function() {
             $('.skillbar').skillbar({
-                speed: 2000
+                speed: 1500
             });
 
         });
 
     } else {
         $('.skillbar').skillbar({
-            speed: 2000
+            speed: 1500
         });
 
     }
@@ -86,6 +86,8 @@ $(document).ready(function() {
             $('body').addClass('add_bg');
             $('.toggle-color').addClass('white-black');
             $('.change-color').css('color', '#fff');
+            $('.hide-logo').css('display', 'none');
+            $('.show-logo').css('display', 'block');
             $('.pad-top').css('visibility', 'hidden');
             $('.profile-pic').css('filter', 'saturate(100%)');
         } else {
@@ -94,6 +96,8 @@ $(document).ready(function() {
             $('.toggle-color').removeClass('white-black');
             $('.change-color').css('color', '#ad3133');
             $('.pad-top').css('visibility', 'visible');
+            $('.hide-logo').css('display', 'block');
+            $('.show-logo').css('display', 'none');
             $('.profile-pic').css('filter', 'grayscale(100%)');
         }
 
@@ -112,8 +116,12 @@ $(document).ready(function() {
     $(document).scroll(function() {
         if ($(this).scrollTop() > 500) {
             $('.toggle-switch').addClass('onscroll-fix');
+            $('.fix-title').fadeIn(300);
+            $('.fix-title').addClass('onscroll-fix-title');
         } else {
             $('.toggle-switch').removeClass('onscroll-fix');
+            $('.fix-title').fadeOut();
+            $('.fix-title').removeClass('onscroll-fix-title');
 
         }
 

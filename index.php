@@ -38,6 +38,9 @@
 
             </div>
         </div>
+        <div class="fix-title">
+            <h1>Chandan <span>Baruah</span></h1>
+        </div>
     </section>
     <!--- header section ends --->
     <!--- about section starts --->
@@ -86,7 +89,8 @@
                     <div class="col-md-4" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="short-desp">
-                            <img src="assets/images/logos/data.png">
+                            <img src="assets/images/logos/data.png" class="hide-logo">
+                            <img src="assets/images/logos/data-white.png" class="show-logo">
                             <h1>ui/ux development</h1>
                             <p class="toggle-color">Building highly interactive next gen User Interfaces for Websites
                                 and Web Applications.
@@ -96,7 +100,8 @@
                     <div class="col-md-4" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="short-desp">
-                            <img src="assets/images/logos/dashboard.png">
+                            <img src="assets/images/logos/dashboard.png" class="hide-logo">
+                            <img src="assets/images/logos/dashboard-white.png" class="show-logo">
                             <h1>Responsive web design</h1>
                             <p class="toggle-color">Building highly responsive User Interfaces for Websites and Web
                                 Applications.</p>
@@ -107,7 +112,8 @@
                     <div class="col-md-4" data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="short-desp">
-                            <img src="assets/images/logos/animation.png">
+                            <img src="assets/images/logos/animation.png" class="hide-logo">
+                            <img src="assets/images/logos/animation-white.png" class="show-logo">
                             <h1>Web Animations (JS & CSS)</h1>
                             <p class="toggle-color">Laveraging the power of Javascript and CSS's Animation feature to
                                 give life to the User
@@ -117,7 +123,8 @@
                     <div class="col-md-4" data-sal="slide-up" data-sal-delay="900" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="short-desp">
-                            <img src="assets/images/logos/seo-and-web.png">
+                            <img src="assets/images/logos/seo-and-web.png" class="hide-logo">
+                            <img src="assets/images/logos/loading.png" class="show-logo">
                             <h1>Speed Optimizations</h1>
                             <p class="toggle-color">Helping the Digital Marketing Team to acheive maximum leads by
                                 carefully optimizing the
