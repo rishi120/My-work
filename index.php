@@ -294,7 +294,7 @@
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/orygen.png" class="img-fluid">
-                            <p><a href="#">Orygen</a></p>
+                            <p><a href="https://orygen.in/">Orygen</a></p>
                             <!-- <video class="project-preview" autoplay loop muted>
                                 <source src="assets/images/video/orygen.mp4" type="video/mp4">
                             </video> -->
@@ -304,35 +304,35 @@
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/pace.png" class="img-fluid">
-                            <p><a href="#">Pace Wisdom</a></p>
+                            <p><a href="https://pws.dev.pacewisdom.com/">Pace Wisdom</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/syngene.png" class="img-fluid">
-                            <p><a href="#">Syngene</a></p>
+                            <p><a href="http://syngenedev.pacewisdom.com/">Syngene</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="600" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/dogbox.png" class="img-fluid">
-                            <p><a href="#">Dog Box</a></p>
+                            <p><a href="https://dev.dogbox.pacewisdom.in/">Dog Box</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/veda-vyasa.png" class="img-fluid">
-                            <p><a href="#">Veda Vyasa</a></p>
+                            <p><a href="https://vvigroup.in/">Veda Vyasa</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="800" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/blackswan.png" class="img-fluid">
-                            <p><a href="#">Black Swan</a></p>
+                            <p><a href="https://blackswaninc.in/digital-marketing-agency-bangalore/">Black Swan</a></p>
                         </div>
                     </div>
                     <!-- <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="800" data-sal-duration="1200"
