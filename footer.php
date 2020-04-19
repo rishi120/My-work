@@ -15,6 +15,9 @@
                     <li><a href="https://www.linkedin.com/in/chandan-baruah-cb120/">
                             <i class="fab fa-linkedin linkedin-color"></i>
                         </a></li>
+                    <li><a href="https://github.com/rishi120/">
+                            <i class="fab fa-github-square github-color"></i>
+                        </a></li>
                 </ul>
             </div>
             <!-- <i class="fa fa-chevron-up scroll_top_icon" aria-hidden="true"></i> -->

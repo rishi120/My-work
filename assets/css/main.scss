@@ -85,7 +85,7 @@ body {
                 width: 15%;
                 /* custom checkbox styles */
                 @media #{$mq7b} {
-                    width: 30% !important;
+                    width: 36% !important;
                 }
                 .switch {
                     position: relative;
@@ -697,18 +697,26 @@ body {
                         padding: 0 20px 0 20px;
                         a {
                             svg {
+                                @include transition(0.3s ease);
                                 font-size: 25px;
                                 color: map-get($colors, white);
+                                &:hover {
+                                    transform: translateY(-5px);
+                                    color: map-get($colors, white);
+                                }
                             }
-                            // .fb-color {
-                            //     color: #4267b2;
-                            // }
-                            // .insta-color {
-                            //     color: #833ab4;
-                            // }
-                            // .linkedin-color {
-                            //     color: #2867b2;
-                            // }
+                            .fb-color {
+                                color: #4267b2;
+                            }
+                            .insta-color {
+                                color: #c13584;
+                            }
+                            .linkedin-color {
+                                color: #2867b2;
+                            }
+                            .github-color {
+                                color: #ad5c51;
+                            }
                         }
                     }
                 }
