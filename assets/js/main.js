@@ -120,7 +120,7 @@ $(document).ready(function() {
             $('.fix-title').addClass('onscroll-fix-title');
         } else {
             $('.toggle-switch').removeClass('onscroll-fix');
-            $('.fix-title').fadeOut();
+            $('.fix-title').css('display', 'none');
             $('.fix-title').removeClass('onscroll-fix-title');
 
         }

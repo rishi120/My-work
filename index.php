@@ -386,7 +386,7 @@
                             <h1 data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200"
                                 data-sal-easing="ease-out-bounce">
                                 Let me know here.</h1>
-                            <form method="POST" action="#" id="contact-form">
+                            <form method="POST" action="contact-mail.php" id="contact-form">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="name"
                                         placeholder="What's your name?" data-sal="slide-up" data-sal-delay="300"
@@ -406,8 +406,9 @@
                                         data-sal-easing="ease-out-bounce"></textarea>
                                     <span id="message-error"></span>
                                 </div>
-                                <button type="submit" class="btn btn-primary" data-sal="slide-up" data-sal-delay="600"
-                                    data-sal-duration="1200" data-sal-easing="ease-out-bounce">Submit<i
+                                <button type="submit" name="submit" class="btn btn-primary" data-sal="slide-up"
+                                    data-sal-delay="600" data-sal-duration="1200"
+                                    data-sal-easing="ease-out-bounce">Submit<i
                                         class="fas fa-long-arrow-alt-right"></i></button>
                             </form>
                         </div>
