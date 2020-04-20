@@ -11,7 +11,7 @@
  <!-- Title  -->
  <title>My Portfolio</title>
  <!-- Favicon -->
- <!-- <link rel="shortcut icon" href="assets/images/logos/logo-rotate.png" width="16" height="16" type="image/x-icon" /> -->
+ <link rel="shortcut icon" href="assets/images/chandan-profile.png" type="image/x-icon" />
  <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
  <link rel="stylesheet" href="lib/bootstrap.min.css">
  <link rel="stylesheet" href="lib/sal-js/sal.css">

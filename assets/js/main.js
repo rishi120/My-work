@@ -53,7 +53,7 @@ $(document).ready(function() {
                 // Specify that email should be validated
                 // by the built-in "email" rule
                 email: true,
-                regex: /^([\w-.]+@(gmail|yahoo|hotmail)(\.+)?[a-zA-Z])\/?/,
+                regex: /^([\w-.]+@(gmail|yahoo|hotmail|pacewisdom|rediffmail)(\.+)?[a-zA-Z])\/?/,
             },
             message: "required",
         },
@@ -124,6 +124,12 @@ $(document).ready(function() {
             $('.fix-title').removeClass('onscroll-fix-title');
 
         }
+
+    });
+    $('.scroll-to-top').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1400);
 
     });
 });

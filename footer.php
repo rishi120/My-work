@@ -51,4 +51,4 @@
 <!-- <script src="lib/gsap/CSSRulePlugin.min.js"></script>
 <script src="lib/gsap/gsap.min.js"></script> -->
 <!-- custom scripts -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.min.js"></script>

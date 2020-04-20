@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="fix-title">
-            <h1>Chandan <span>Baruah</span></h1>
+            <h1 class="scroll-to-top">Chandan <span>Baruah</span></h1>
         </div>
     </section>
     <!--- header section ends --->
@@ -281,7 +281,7 @@
     <!--- expeirence section ends --->
     <!--- my work section starts --->
     <section class="my-work">
-        <div class="container-fluid">
+        <div class="container">
             <div class="center-align">
                 <img src="assets/images/Shape-1-1.png" class="line">
                 <h4 data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
@@ -300,25 +300,11 @@
                             </video> -->
                         </div>
                     </div>
-                    <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200"
-                        data-sal-easing="ease-out-bounce">
-                        <div class="img-wrapper">
-                            <img src="assets/images/screens/pace.png" class="img-fluid">
-                            <p><a href="https://pws.dev.pacewisdom.com/">Pace Wisdom</a></p>
-                        </div>
-                    </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
                             <img src="assets/images/screens/syngene.png" class="img-fluid">
                             <p><a href="http://syngenedev.pacewisdom.com/">Syngene</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="600" data-sal-duration="1200"
-                        data-sal-easing="ease-out-bounce">
-                        <div class="img-wrapper">
-                            <img src="assets/images/screens/dogbox.png" class="img-fluid">
-                            <p><a href="https://dev.dogbox.pacewisdom.in/">Dog Box</a></p>
                         </div>
                     </div>
                     <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200"
@@ -335,13 +321,20 @@
                             <p><a href="https://blackswaninc.in/digital-marketing-agency-bangalore/">Black Swan</a></p>
                         </div>
                     </div>
-                    <!-- <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="800" data-sal-duration="1200"
+                    <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="600" data-sal-duration="1200"
                         data-sal-easing="ease-out-bounce">
                         <div class="img-wrapper">
-                            <img src="assets/images/screens/svasa.png" class="img-fluid">
-                            <p><a href="#">Svasa</a></p>
+                            <img src="assets/images/coming-soon.jpg" class="img-fluid">
+                            <p><a href="javascript:void(0)">Coming Soon</a></p>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-md-6 custom-col" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200"
+                        data-sal-easing="ease-out-bounce">
+                        <div class="img-wrapper">
+                            <img src="assets/images/coming-soon.jpg" class="img-fluid">
+                            <p><a href="javascript:void(0)">Coming Soon</a></p>
+                        </div>
+                    </div>
                 </div>
                 <!-- </div> -->
                 <!-- <button type="button" class="load-more__btn">Load More</button> -->

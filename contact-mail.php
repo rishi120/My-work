@@ -28,11 +28,11 @@ if (isset($_POST['submit'])) {
     // $mail->SMTPDebug = 2;
 
     /*-----------------------------------*/
-    $mail->Username = "sendanmailpace@gmail.com";
-    $mail->Password = "pace@123";
+    $mail->Username = "r.baruah42@gmail.com";
+    $mail->Password = "Guwahati#12345";
     /*--------------------------------------------*/
-    $mail->SMTPSecure = "tls";
-    $mail->Port = 587;
+    $mail->SMTPSecure = "ssl";
+    $mail->Port = 465;
 
     $mail->From = "r.baruah42@gmail.com";
     $mail->FromName = "Contact lead from Customers";
@@ -55,7 +55,7 @@ Name : " . $name . "<br>" .
         // echo "";
         echo "<script type='text/javascript'>  
         alert('Thanks! I will get back to you shortly');
-        window.location='http://localhost/workspace/Portfolio/';
+        window.location='https://chandanbaruah.com/';
         </script>";
     }
 }

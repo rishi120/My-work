@@ -60,10 +60,10 @@ body {
     }
     .header {
         .center-align {
-            @media #{$mq7a} {
-                width: 80%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 80%;
+            //     margin: auto;
+            // }
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
@@ -155,10 +155,10 @@ body {
     .about {
         padding: 70px 0 50px 0;
         .center-align {
-            @media #{$mq7a} {
-                width: 80%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 80%;
+            //     margin: auto;
+            // }
             .about-me {
                 height: 100%;
                 position: relative;
@@ -234,10 +234,10 @@ body {
             padding: 20px 0;
         }
         .center-align {
-            @media #{$mq7a} {
-                width: 80%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 80%;
+            //     margin: auto;
+            // }
             position: relative;
             .line {
                 position: absolute;
@@ -296,10 +296,10 @@ body {
             padding: 10px 0 20px 0;
         }
         .center-align {
-            @media #{$mq7a} {
-                width: 80%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 80%;
+            //     margin: auto;
+            // }
             position: relative;
             .line {
                 position: absolute;
@@ -329,7 +329,7 @@ body {
                 }
             }
             .skillbar {
-                margin: 18px 0;
+                margin: 25px 0;
                 .title {
                     font: 9px $lb;
                     display: flex;
@@ -348,10 +348,10 @@ body {
     .expeirence {
         padding: 80px 0;
         .center-align {
-            @media #{$mq7a} {
-                width: 80%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 80%;
+            //     margin: auto;
+            // }
             position: relative;
             .line {
                 position: absolute;
@@ -420,10 +420,10 @@ body {
             padding: 10px 0 20px 0;
         }
         .center-align {
-            @media #{$mq7a} {
-                width: 85%;
-                margin: auto;
-            }
+            // @media #{$mq7a} {
+            //     width: 85%;
+            //     margin: auto;
+            // }
             position: relative;
             .line {
                 position: absolute;
@@ -538,7 +538,7 @@ body {
             position: relative;
             .line {
                 position: absolute;
-                left: -30px;
+                left: -20px;
                 top: 15px;
                 @media #{$mq7b} {
                     position: static;
@@ -547,7 +547,7 @@ body {
             h4 {
                 font: 25px $lr;
                 text-transform: uppercase;
-                padding-left: 20px;
+                padding-left: 30px;
                 @media #{$mq7b} {
                     padding-left: 0;
                     font-size: 20px;
@@ -556,7 +556,7 @@ body {
             h1 {
                 margin: 0;
                 font: 40px $lb;
-                padding: 0 0 50px 20px;
+                padding: 0 0 50px 30px;
                 text-transform: capitalize;
                 @media #{$mq7b} {
                     font-size: 30px;
@@ -564,7 +564,7 @@ body {
                 }
             }
             .contact-info {
-                padding-left: 15px;
+                padding-left: 30px;
                 @media #{$mq7b} {
                     padding-bottom: 50px;
                 }
@@ -823,6 +823,7 @@ body {
         font: 20px $lb;
         margin: 0;
         color: map-get($colors, black) !important;
+        cursor: pointer;
         @media #{$mq7a} {
             text-indent: 20px;
         }
