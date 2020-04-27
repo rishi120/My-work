@@ -1,9 +1,18 @@
 $(document).ready(function() {
+
+    /* gsap functionality */
+    var tl = gsap.timeline();
+    tl.to('ul.transition li', { duration: .5, scaleY: 1, transformOrigin: "bottom left", stagger: .2 });
+    tl.to('ul.transition li', { duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1 });
     /* sal js config */
-    sal({
-        threshold: 0.1,
-        once: true,
-    });
+    setTimeout(() => {
+        sal({
+            threshold: 0.1,
+            once: true,
+        });
+
+    }, 2000);
+
     /* skill bar config */
     var detectWindow = $(window).width();
     if (detectWindow > 767) {

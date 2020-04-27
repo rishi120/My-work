@@ -8,6 +8,13 @@
 </head>
 
 <body>
+    <ul class="transition">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
     <!--- header section starts --->
     <section class="header">
         <div class="container">
@@ -15,7 +22,8 @@
                 <a href="#" data-sal="slide-up" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200"
                     data-sal-easing="ease-out-bounce"><img src="assets/images/chandan-profile.png"
                         class="profile-pic"></a>
-                <div class="toggle-switch">
+                <div class="toggle-switch" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1200"
+                    data-sal-easing="ease-out-bounce">
                     <!-- <img src="assets/images/sun.svg"> -->
 
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="sun">
@@ -39,7 +47,7 @@
             </div>
         </div>
         <div class="fix-title">
-            <h1 class="scroll-to-top">Chandan <span>Baruah</span></h1>
+            <h1 class="scroll-to-top"><a href="javascript:void(0)">Chandan <span>Baruah</span></a></h1>
         </div>
     </section>
     <!--- header section ends --->
@@ -68,7 +76,8 @@
 
                     </div>
                     <div class="col-md-7">
-                        <img src="assets/images/vector.png" class="img-fluid pad-top">
+                        <img src="assets/images/vector.png" class="img-fluid pad-top" data-sal="slide-up"
+                            data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-bounce">
                     </div>
                 </div>
             </div>

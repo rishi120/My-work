@@ -32,10 +32,11 @@
 html,
 body {
     @include transition(0.3s ease);
-    @media #{$mq7a} {
-        background-image: url("../images/Layer-3.png");
-        background-size: cover;
-    }
+    background-color: #f0f0f0;
+    // @media #{$mq7a} {
+    //     background-image: url("../images/Layer-3.png");
+    //     background-size: cover;
+    // }
     // cursor: none;
     &::-webkit-scrollbar {
         width: 8px;
@@ -57,6 +58,24 @@ body {
     }
     &::-moz-scrollbar-track {
         background-color: #383838;
+    }
+    .transition {
+        display: flex;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin: 0;
+        pointer-events: none;
+        padding-left: 0;
+        list-style-type: none;
+        li {
+            width: 20%;
+            background-color: map-get($colors, white);
+            transform: scaleY(0);
+        }
     }
     .header {
         .center-align {
@@ -822,8 +841,11 @@ body {
     h1 {
         font: 20px $lb;
         margin: 0;
-        color: map-get($colors, black) !important;
         cursor: pointer;
+        a {
+            color: map-get($colors, black) !important;
+            text-decoration: none;
+        }
         @media #{$mq7a} {
             text-indent: 20px;
         }

@@ -7,15 +7,16 @@
             <div class="social-icons-sections" data-sal="slide-up" data-sal-delay="700" data-sal-duration="1200"
                 data-sal-easing="ease-out-bounce">
                 <ul>
-                    <li><a href="https://www.facebook.com/chandan.baruah.33"><i
+                    <li><a href="https://www.facebook.com/chandan.baruah.33" target="_blank"><i
                                 class="fab fa-facebook-square fb-color"></i></a>
                     </li>
-                    <li><a href="https://www.instagram.com/r.baruah42/"><i class="fab fa-instagram insta-color"></i></a>
+                    <li><a href="https://www.instagram.com/r.baruah42/" target="_blank"><i
+                                class="fab fa-instagram insta-color"></i></a>
                     </li>
-                    <li><a href="https://www.linkedin.com/in/chandan-baruah-cb120/">
+                    <li><a href="https://www.linkedin.com/in/chandan-baruah-cb120/" target="_blank">
                             <i class="fab fa-linkedin linkedin-color"></i>
                         </a></li>
-                    <li><a href="https://github.com/rishi120/">
+                    <li><a href="https://github.com/rishi120/" target="_blank">
                             <i class="fab fa-github-square github-color"></i>
                         </a></li>
                 </ul>
@@ -48,7 +49,7 @@
 <!--- browser detech --->
 <script src="assets/js/browser-detect.min.js"></script>
 <!---- gsap scripts --->
-<!-- <script src="lib/gsap/CSSRulePlugin.min.js"></script>
-<script src="lib/gsap/gsap.min.js"></script> -->
+<!-- <script src="lib/gsap/CSSRulePlugin.min.js"></script> --->
+<script src="lib/gsap/gsap.min.js"></script>
 <!-- custom scripts -->
 <script src="assets/js/main.min.js"></script>

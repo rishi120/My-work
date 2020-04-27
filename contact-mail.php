@@ -1,6 +1,4 @@
 <?php
-
-$others = null;
 if (isset($_POST['submit'])) {
 
 
@@ -21,18 +19,18 @@ if (isset($_POST['submit'])) {
     //Set PHPMailer to use SMTP.
     $mail->isSMTP();
     //Set SMTP host name
-    $mail->Host = "smtp.gmail.com";
+    $mail->Host = "email-smtp.ap-south-1.amazonaws.com";
     //Set this to true if SMTP host requires authentication to send email
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = false;
     // $mail->SMTPDebug = 2;
 
     /*-----------------------------------*/
-    $mail->Username = "r.baruah42@gmail.com";
-    $mail->Password = "Guwahati#12345";
+    $mail->Username = "AKIA4MEFOKWRFAWM5Q5W";
+    $mail->Password = "BC7fxuSbi5tf0WFQ32FoKrS2Va8mY6Mfvg5D8J5aDxum";
     /*--------------------------------------------*/
-    $mail->SMTPSecure = "ssl";
-    $mail->Port = 465;
+    $mail->SMTPSecure = "tls";
+    $mail->Port = 587;
 
     $mail->From = "r.baruah42@gmail.com";
     $mail->FromName = "Contact lead from Customers";
@@ -44,7 +42,7 @@ if (isset($_POST['submit'])) {
 
     $mail->Subject = $message;
     $mail->Body = "Hi Chandan,<br><br>
-The details of submitted form as follows<br><br>
+Contact lead from $name<br><br>
 Name : " . $name . "<br>" .
         "Email : " . $email . "<br>" .
         "Message : " . $message . "<br>";
