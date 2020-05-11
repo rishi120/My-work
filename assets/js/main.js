@@ -84,9 +84,6 @@ $(document).ready(function() {
             form.submit();
         }
     });
-    /* implementing gsap animation */
-    // gsap.from('.about-me', { opacity: 0, duration: 1, y: -100, ease: 'Power2.easeInOut' });
-    // gsap.from('.name', { opacity: 0, duration: 1, y: -30 });
     /* toggle switch functionality */
     $("input[name='checkbox']").click(function() {
 
