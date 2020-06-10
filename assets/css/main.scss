@@ -90,10 +90,10 @@ body {
             a {
                 .profile-pic {
                     @include transition(0.3s ease);
-                    filter: grayscale(100%);
+                    // filter: grayscale(100%);
                     &:hover {
                         transform: scale(1.08);
-                        filter: saturate(100%);
+                        // filter: saturate(100%);
                     }
                 }
             }

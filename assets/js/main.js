@@ -95,7 +95,7 @@ $(document).ready(function() {
             $('.hide-logo').css('display', 'none');
             $('.show-logo').css('display', 'block');
             $('.pad-top').css('visibility', 'hidden');
-            $('.profile-pic').css('filter', 'saturate(100%)');
+            $('.profile-pic').css('filter', 'grayscale(100%)');
         } else {
             localStorage.removeItem("check");
             $('body').removeClass('add_bg');
@@ -104,7 +104,7 @@ $(document).ready(function() {
             $('.pad-top').css('visibility', 'visible');
             $('.hide-logo').css('display', 'block');
             $('.show-logo').css('display', 'none');
-            $('.profile-pic').css('filter', 'grayscale(100%)');
+            $('.profile-pic').css('filter', 'saturate(100%)');
         }
 
     });
@@ -116,7 +116,7 @@ $(document).ready(function() {
         $('.toggle-color').addClass('white-black');
         $('.change-color').css('color', '#fff');
         $('.pad-top').css('visibility', 'hidden');
-        $('.profile-pic').css('filter', 'saturate(100%)');
+        $('.profile-pic').css('filter', 'grayscale(100%)');
     }
     /* onscroll fix toggle switch functionality */
     $(document).scroll(function() {
