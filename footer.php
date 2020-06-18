@@ -51,5 +51,7 @@
 <!---- gsap scripts --->
 <!-- <script src="lib/gsap/CSSRulePlugin.min.js"></script> --->
 <script src="lib/gsap/gsap.min.js"></script>
+<!--- particles js script --->
+<script src="lib/particles.min.js"></script>
 <!-- custom scripts -->
 <script src="assets/js/main.min.js"></script>

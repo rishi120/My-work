@@ -12,6 +12,11 @@ $(document).ready(function() {
         });
 
     }, 2000);
+    /* show canvas element after 2 seconds */
+    setTimeout(() => {
+        $('canvas').css('opacity', '1');
+
+    }, 2000);
 
     /* skill bar config */
     var detectWindow = $(window).width();
@@ -138,4 +143,120 @@ $(document).ready(function() {
         }, 1400);
 
     });
+    /* Partical Js */
+
+    particlesJS(
+        'particles-js',
+
+        {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 2000,
+                    },
+                },
+                color: {
+                    value: '#932a33',
+                },
+                shape: {
+                    type: 'circle',
+                    stroke: {
+                        width: 0,
+                        color: '#932a33',
+                    },
+                    polygon: {
+                        nb_sides: 3,
+                    },
+                    image: {
+                        src: 'img/github.svg',
+                        width: 100,
+                        height: 100,
+                    },
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: {
+                        enable: false,
+                        speed: 1,
+                        opacity_min: 0.1,
+                        sync: false,
+                    },
+                },
+                size: {
+                    value: 14,
+                    random: true,
+                    anim: {
+                        enable: false,
+                        speed: 40,
+                        size_min: 0.1,
+                        sync: false,
+                    },
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 250,
+                    color: '#a9a9a9',
+                    opacity: 0.4,
+                    width: 1,
+                },
+                move: {
+                    enable: true,
+                    speed: 4,
+                    direction: 'none',
+                    random: false,
+                    straight: false,
+                    out_mode: 'out',
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                        rotateX: 600,
+                        rotateY: 1200,
+                    },
+                },
+            },
+            interactivity: {
+                detect_on: 'canvas',
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: 'grab',
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: 'push',
+                    },
+                    resize: true,
+                },
+                modes: {
+                    grab: {
+                        distance: 400,
+                        line_linked: {
+                            opacity: 1,
+                        },
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 20,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3,
+                    },
+                    repulse: {
+                        distance: 200,
+                        duration: 0.4,
+                    },
+                    push: {
+                        particles_nb: 4,
+                    },
+                    remove: {
+                        particles_nb: 2,
+                    },
+                },
+            },
+            retina_detect: true,
+        }
+    );
 });

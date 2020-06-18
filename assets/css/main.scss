@@ -32,7 +32,7 @@
 html,
 body {
     @include transition(0.3s ease);
-    background-color: #f0f0f0;
+    // background-color: #f0f0f0;
     // @media #{$mq7a} {
     //     background-image: url("../images/Layer-3.png");
     //     background-size: cover;
@@ -73,176 +73,187 @@ body {
         list-style-type: none;
         li {
             width: 20%;
-            background-color: map-get($colors, white);
+            background-color: map-get($colors, transition);
             transform: scaleY(0);
         }
     }
-    .header {
-        .center-align {
-            // @media #{$mq7a} {
-            //     width: 80%;
-            //     margin: auto;
-            // }
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding-top: 30px;
-            a {
-                .profile-pic {
-                    @include transition(0.3s ease);
-                    // filter: grayscale(100%);
-                    &:hover {
-                        transform: scale(1.08);
-                        // filter: saturate(100%);
-                    }
-                }
-            }
-            .toggle-switch {
+    .particles-wrapper {
+        position: relative;
+        canvas {
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            opacity: 0;
+            @include transition(0.3s ease);
+        }
+        .header {
+            .center-align {
+                // @media #{$mq7a} {
+                //     width: 80%;
+                //     margin: auto;
+                // }
                 display: flex;
-                align-items: center;
                 justify-content: space-between;
-                width: 15%;
-                /* custom checkbox styles */
-                @media #{$mq7b} {
-                    width: 36% !important;
-                }
-                .switch {
-                    position: relative;
-                    display: inline-block;
-                    width: 40px;
-                    height: 20px;
-                    input {
-                        opacity: 0;
-                        width: 0;
-                        height: 0;
-                        &:checked+.slider {
-                            background-color: #932a33;
-                        }
-                        &:focus+.slider {
-                            box-shadow: 0 0 1px #2196f3;
-                        }
-                        &:checked+.slider:before {
-                            -webkit-transform: translateX(26px);
-                            -ms-transform: translateX(26px);
-                            transform: translateX(20px);
-                        }
-                    }
-                    .slider {
-                        position: absolute;
-                        cursor: pointer;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        bottom: 0;
-                        background-color: #ccc;
-                        -webkit-transition: 0.4s;
-                        transition: 0.4s;
-                        &:before {
-                            position: absolute;
-                            content: "";
-                            height: 10px;
-                            width: 10px;
-                            left: 4px;
-                            bottom: 4px;
-                            background-color: white;
-                            -webkit-transition: 0.3s;
-                            transition: 0.3s;
-                        }
-                    }
-                    .round {
-                        border-radius: 34px;
-                        &:before {
-                            border-radius: 50%;
-                        }
-                    }
-                }
-                /* custom checkbox styles ends */
-                .sun {
-                    fill: #eda02b;
-                    width: 30px;
-                }
-                .moon {
-                    width: 30px;
-                    fill: #dae3e9;
-                }
-            }
-        }
-        .fix-title {
-            display: none;
-        }
-    }
-    .about {
-        padding: 70px 0 50px 0;
-        .center-align {
-            // @media #{$mq7a} {
-            //     width: 80%;
-            //     margin: auto;
-            // }
-            .about-me {
-                height: 100%;
-                position: relative;
-                img {
-                    padding-bottom: 20px;
-                }
-                .brief-intro {
-                    font: 16px $lr;
-                    color: map-get($colors, black);
-                    line-height: 25px;
-                    width: 90%;
-                    @media #{$mq7b} {
-                        width: 100%;
-                        text-align: justify;
-                        padding-bottom: 50px;
-                    }
-                    span {
-                        background: -webkit-linear-gradient(#ad3133, #441736);
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        font-weight: 700;
-                    }
-                }
-                h4 {
-                    padding-top: 30px;
-                    font: 60px $lb;
-                    position: absolute;
-                    top: 50%;
-                    margin-top: -50px;
-                    text-indent: 2px;
-                    @media #{$mq7b} {
-                        margin-top: -40px;
-                        font-size: 40px;
-                    }
-                }
-                h1 {
-                    font: 100px $lb;
-                    color: #932a33;
-                    letter-spacing: 2px;
-                    // width: 130%;
-                    z-index: 100;
-                    margin: 0;
-                    padding-top: 70px;
-                    @media #{$mq7b} {
-                        font-size: 70px;
-                        padding-top: 0;
-                    }
-                }
-                .designation {
-                    position: absolute;
-                    bottom: 0;
-                    left: 8px;
-                    font: 18px $lb;
-                    text-transform: uppercase;
-                    color: map-get($colors, black);
-                    letter-spacing: 1px;
-                    @media #{$mq7b} {
-                        bottom: -10px;
-                    }
-                }
-            }
-            .pad-top {
+                align-items: flex-start;
                 padding-top: 30px;
-                @media #{$mq7b} {
-                    display: none !important;
+                a {
+                    .profile-pic {
+                        @include transition(0.3s ease);
+                        // filter: grayscale(100%);
+                        &:hover {
+                            transform: scale(1.08);
+                            // filter: saturate(100%);
+                        }
+                    }
+                }
+                .toggle-switch {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 15%;
+                    /* custom checkbox styles */
+                    @media #{$mq7b} {
+                        width: 36% !important;
+                    }
+                    .switch {
+                        position: relative;
+                        display: inline-block;
+                        width: 40px;
+                        height: 20px;
+                        input {
+                            opacity: 0;
+                            width: 0;
+                            height: 0;
+                            &:checked+.slider {
+                                background-color: #932a33;
+                            }
+                            &:focus+.slider {
+                                box-shadow: 0 0 1px #2196f3;
+                            }
+                            &:checked+.slider:before {
+                                -webkit-transform: translateX(26px);
+                                -ms-transform: translateX(26px);
+                                transform: translateX(20px);
+                            }
+                        }
+                        .slider {
+                            position: absolute;
+                            cursor: pointer;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background-color: #ccc;
+                            -webkit-transition: 0.4s;
+                            transition: 0.4s;
+                            &:before {
+                                position: absolute;
+                                content: "";
+                                height: 10px;
+                                width: 10px;
+                                left: 4px;
+                                bottom: 4px;
+                                background-color: white;
+                                -webkit-transition: 0.3s;
+                                transition: 0.3s;
+                            }
+                        }
+                        .round {
+                            border-radius: 34px;
+                            &:before {
+                                border-radius: 50%;
+                            }
+                        }
+                    }
+                    /* custom checkbox styles ends */
+                    .sun {
+                        fill: #eda02b;
+                        width: 30px;
+                    }
+                    .moon {
+                        width: 30px;
+                        fill: #dae3e9;
+                    }
+                }
+            }
+            .fix-title {
+                display: none;
+            }
+        }
+        .about {
+            padding: 70px 0 50px 0;
+            .center-align {
+                // @media #{$mq7a} {
+                //     width: 80%;
+                //     margin: auto;
+                // }
+                .about-me {
+                    height: 100%;
+                    position: relative;
+                    img {
+                        padding-bottom: 20px;
+                    }
+                    .brief-intro {
+                        font: 16px $lr;
+                        color: map-get($colors, black);
+                        line-height: 25px;
+                        width: 90%;
+                        @media #{$mq7b} {
+                            width: 100%;
+                            text-align: justify;
+                            padding-bottom: 50px;
+                        }
+                        span {
+                            background: -webkit-linear-gradient(#ad3133, #441736);
+                            -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;
+                            font-weight: 700;
+                        }
+                    }
+                    h4 {
+                        padding-top: 30px;
+                        font: 60px $lb;
+                        position: absolute;
+                        top: 50%;
+                        margin-top: -50px;
+                        text-indent: 2px;
+                        @media #{$mq7b} {
+                            margin-top: -40px;
+                            font-size: 40px;
+                        }
+                    }
+                    h1 {
+                        font: 100px $lb;
+                        color: #932a33;
+                        letter-spacing: 2px;
+                        // width: 130%;
+                        z-index: 100;
+                        margin: 0;
+                        padding-top: 70px;
+                        @media #{$mq7b} {
+                            font-size: 70px;
+                            padding-top: 0;
+                        }
+                    }
+                    .designation {
+                        position: absolute;
+                        bottom: 0;
+                        left: 8px;
+                        font: 18px $lb;
+                        text-transform: uppercase;
+                        color: map-get($colors, black);
+                        letter-spacing: 1px;
+                        @media #{$mq7b} {
+                            bottom: -10px;
+                        }
+                    }
+                }
+                .pad-top {
+                    padding-top: 30px;
+                    display: none;
+                    @media #{$mq7b} {
+                        display: none !important;
+                    }
                 }
             }
         }
