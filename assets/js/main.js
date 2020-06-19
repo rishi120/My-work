@@ -154,7 +154,7 @@ $(document).ready(function() {
                     value: 80,
                     density: {
                         enable: true,
-                        value_area: 2000,
+                        value_area: 1500,
                     },
                 },
                 color: {
@@ -176,7 +176,7 @@ $(document).ready(function() {
                     },
                 },
                 opacity: {
-                    value: 0.5,
+                    value: 0.7,
                     random: false,
                     anim: {
                         enable: false,
@@ -186,10 +186,10 @@ $(document).ready(function() {
                     },
                 },
                 size: {
-                    value: 14,
+                    value: 8,
                     random: true,
                     anim: {
-                        enable: false,
+                        enable: true,
                         speed: 40,
                         size_min: 0.1,
                         sync: false,
@@ -209,7 +209,7 @@ $(document).ready(function() {
                     random: false,
                     straight: false,
                     out_mode: 'out',
-                    bounce: false,
+                    bounce: true,
                     attract: {
                         enable: false,
                         rotateX: 600,
