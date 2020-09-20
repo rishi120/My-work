@@ -1,9 +1,35 @@
-$(document).ready(function() {
-
+$(window).load(function() {
     /* gsap functionality */
+    // setTimeout(() => {
+    //     var bg = gsap.timeline();
+    //     bg.to(".bg", {
+    //         duration: 1,
+    //         translateY: "-100vh",
+    //         opacity: 1
+    //     })
+
+    // }, 2000);
+    // var listItems = gsap.timeline();
+    // listItems.from("ul li", 1, { translateY: -100, stagger: .1 }, .2)
+    //     .to("ul li", 1, { opacity: 1 }, .2)
     var tl = gsap.timeline();
-    tl.to('ul.transition li', { duration: .5, scaleY: 1, transformOrigin: "bottom left", stagger: .2 });
-    tl.to('ul.transition li', { duration: .5, scaleY: 0, transformOrigin: "bottom left", stagger: .1, delay: .1 });
+    tl.to('ul.transition li', {
+        duration: 0.5,
+        scaleY: 1,
+        transformOrigin: 'bottom left',
+        stagger: 0.2,
+    });
+    tl.to('ul.transition li', {
+        duration: 0.5,
+        scaleY: 0,
+        transformOrigin: 'bottom left',
+        stagger: 0.1,
+        delay: 0.1,
+    });
+});
+
+
+$(document).ready(function() {
     /* sal js config */
     setTimeout(() => {
         sal({
@@ -11,12 +37,12 @@ $(document).ready(function() {
             once: true,
         });
 
-    }, 2000);
+    }, 3500);
     /* show canvas element after 2 seconds */
     setTimeout(() => {
         $('canvas').css('opacity', '1');
 
-    }, 2000);
+    }, 3500);
 
     /* skill bar config */
     var detectWindow = $(window).width();
@@ -101,6 +127,9 @@ $(document).ready(function() {
             $('.show-logo').css('display', 'block');
             $('.pad-top').css('visibility', 'hidden');
             $('.profile-pic').css('filter', 'grayscale(100%)');
+            $('.fix-title').css('background-color', '#080f1e');
+            $('.toggle-color').css('color', '#fff');
+            $('.toggle-title-color').css('color', '#932a33');
         } else {
             localStorage.removeItem("check");
             $('body').removeClass('add_bg');
@@ -110,6 +139,9 @@ $(document).ready(function() {
             $('.hide-logo').css('display', 'block');
             $('.show-logo').css('display', 'none');
             $('.profile-pic').css('filter', 'saturate(100%)');
+            $('.fix-title').css('background-color', '#fff');
+            $('.toggle-color').css('color', '#000');
+            $('.toggle-title-color').css('color', '#932a33');
         }
 
     });
@@ -122,6 +154,9 @@ $(document).ready(function() {
         $('.change-color').css('color', '#fff');
         $('.pad-top').css('visibility', 'hidden');
         $('.profile-pic').css('filter', 'grayscale(100%)');
+        $('.fix-title').css('background-color', '#080f1e');
+        $('.toggle-color').css('color', '#fff');
+        $('.toggle-title-color').css('color', '#932a33');
     }
     /* onscroll fix toggle switch functionality */
     $(document).scroll(function() {

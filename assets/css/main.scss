@@ -59,6 +59,7 @@ body {
     &::-moz-scrollbar-track {
         background-color: #383838;
     }
+    /* ul transition */
     .transition {
         display: flex;
         width: 100%;
@@ -73,10 +74,36 @@ body {
         list-style-type: none;
         li {
             width: 20%;
-            background-color: map-get($colors, transition);
+            // background-color: map-get($colors, transition);
+            background-image: linear-gradient(to bottom, #6d3d8b, #ad3133);
             transform: scaleY(0);
+            padding: 0;
         }
     }
+    // .bg {
+    //     position: absolute;
+    //     height: 100%;
+    //     background-color: #932a33;
+    //     width: 100%;
+    //     z-index: 100;
+    //     transform: matrix(1, 0, 0, 1, 0, 0);
+    //     // transform: translateY(-100%);
+    //     transition: 0.3s ease;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     ul {
+    //         display: flex;
+    //         list-style-type: none;
+    //         padding-left: 0;
+    //         li {
+    //             font: 40px $lb;
+    //             padding: 0 10px 0 10px;
+    //             color: map-get($colors, white);
+    //             opacity: 0;
+    //         }
+    //     }
+    // }
     .particles-wrapper {
         position: relative;
         canvas {
@@ -852,17 +879,18 @@ body {
     h1 {
         font: 20px $lb;
         margin: 0;
-        cursor: pointer;
-        a {
+        .toggle-color {
             color: map-get($colors, black) !important;
             text-decoration: none;
+            cursor: pointer;
         }
         @media #{$mq7a} {
             text-indent: 20px;
         }
-        span {
+        .toggle-title-color {
             color: #932a33;
             font-weight: 700;
+            cursor: pointer;
         }
     }
 }
